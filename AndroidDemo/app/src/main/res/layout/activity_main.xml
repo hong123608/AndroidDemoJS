@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zyhdemo.MainActivity">
+   <TextView
+       android:id="@+id/tv_show_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="getHtml"
+       android:text="Get Html"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="postFile"
+       android:text="Post File"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="postString"
+       android:text="Post String"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="getHttpsHtml"
+       android:text="Get Https Html"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="getUser"
+       android:text="Get User"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="getUsers"
+       android:text="Get Users"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="getImage"
+       android:text="Get Image"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="uploadFile"
+       android:text="Upload File"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="multiFileUpload"
+       android:text="Multi Upload Files"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="downloadFile"
+       android:text="Download File"/>
+
+   <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+       android:onClick="otherRequestDemo"
+       android:text="otherRequestDemo"/>
+
+   <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+       android:onClick="clearSession"
+       android:text="clearSession"/>
+</LinearLayout>

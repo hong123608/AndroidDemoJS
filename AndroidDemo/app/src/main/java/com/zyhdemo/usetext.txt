@@ -1,0 +1,8 @@
+base  放置  baseactivitie,basefragment,..
+common config, share,pay...
+exception 自定义异常
+imageloader   封装UIL
+network  封装OKhttp
+ui  里面暂定按功能分包
+utils ,log,string,time,sharepreference..
+wxapi  微信相关
